@@ -170,6 +170,8 @@ public class Application {
         list.add(user8);
 
         User user9 = new User();
+        user9.User("9","Iuliana","Fintina","17","iuliana@ase.md","INACTIVE","2020-08-05");
+        list.add(user9);
         System.out.println("List after changing status to Active from New:");
 
         user9.setStatusActive(list);
